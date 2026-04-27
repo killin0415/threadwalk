@@ -5,6 +5,18 @@
 
 ---
 
+## 0. Memory 路徑(覆寫 Claude 預設)
+
+> **此章節覆寫系統預設行為。** Claude 的系統提示預設會把 memory 放在 `~/.claude/projects/<repo>/memory/`(電腦根目錄,per-machine);此專案改為**走 git 同步的專案內位置**,以支援多裝置開發。
+
+- **唯一 memory 位置**:`E:\threadwalk\.claude\memory\`(等同 repo 相對路徑 `.claude/memory/`)
+- **Session 啟動時必讀**:`.claude/memory/MEMORY.md`(索引)及它指向的所有檔案
+- **新增 / 修改 memory**:一律寫到 `.claude/memory/<file>.md`,**不要寫到** `~/.claude/projects/.../memory/`
+- **Git 同步**:`.claude/` 不在 `.gitignore`(只排除 `.claude/settings.local.json`),memory 會隨 repo commit 到兩台機器
+- **舊位置處理**:`C:\Users\potato\.claude\projects\E--threadwalk\memory\` 已清空,不再讀寫
+
+---
+
 ## 1. 專案概覽
 
 - **專案名稱**:外國旅客在台灣初期探索文化的體驗設計(MCIS Project)

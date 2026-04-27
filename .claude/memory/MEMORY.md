@@ -1,0 +1,4 @@
+- [Memory 路徑偏好](memory_location.md) — memory 一律放專案內 `.claude/memory/`,不放電腦根目錄(多裝置 git 同步)
+- [團隊組成](team_structure.md) — 設計組 2 人 + 系統組 4–6 人,4 人為下限、5 人建議、6 人理想
+- [UC 優先順序](uc_priority.md) — G1 (UC3/2/10/6) → G2 (UC5/4/13/8/11/12/14) → G3 (UC16/17/18),未列為降級
+- [GitHub Project / Issues](github_project.md) — `MCIS Sprint Board` (users/killin0415/projects/1) + Issues #1–#62 對應 schedule.md §5 ticket id
