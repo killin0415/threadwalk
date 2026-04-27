@@ -1,0 +1,277 @@
+# =========================================================
+# Operating System
+# =========================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =========================================================
+# IDE / Editor
+# =========================================================
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+.factorypath
+.apt_generated/
+.sts4-cache/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =========================================================
+# Kotlin / Java / Spring Boot
+# =========================================================
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+logs/
+spring.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+.gradletasknamecache
+
+# Spring Boot
+HELP.md
+application-*.local.yml
+application-*.local.yaml
+application-*.local.properties
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# JRebel
+rebel.xml
+rebel-remote.xml
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================================================
+# Python
+# =========================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+env.bak/
+venv.bak/
+
+# uv (used in this project per python.md rule)
+.uv/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv / pdm / poetry lock backups (keep the actual lockfiles)
+# .python-version  # uncomment if you want to ignore
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+
+# mypy / pyright / ruff
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Django (if used)
+*.sqlite3
+*.sqlite3-journal
+local_settings.py
+db.sqlite3
+media/
+
+# Flask (if used)
+instance/
+.webassets-cache
+
+# FastAPI / Celery
+celerybeat-schedule
+celerybeat.pid
+
+# =========================================================
+# Environment / Secrets
+# =========================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+*.jks
+secrets/
+credentials.json
+service-account*.json
+
+# =========================================================
+# Build / Cache / Temp
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+.cache/
+tmp/
+temp/
+
+# Node (if frontend tooling shows up later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =========================================================
+# Project-specific
+# =========================================================
+
+# Local Claude Code overrides (keep shared settings)
+.claude/settings.local.json
+
+# Reference materials that shouldn't be committed
+*.local.md
+references/output/
+*.pdf
